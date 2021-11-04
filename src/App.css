@@ -1,0 +1,38 @@
+
+* {
+  margin: 0px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  background-color: #282c34;
+}
+
+.taskContainer {
+  display: flex;
+}
+
+
+.box {
+  border: 3px black solid;
+  height: 50vh;
+  width: 75vh;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.individualItems {
+  list-style: none;
+}
+
